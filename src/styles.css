@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.fullheight {
+  height: 100% !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.super-large {
+  font-size: 12rem;
+}

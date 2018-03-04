@@ -19,7 +19,9 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/materialize-css/dist/css/materialize.min.css",
+        "./assets/fontawesome/web-fonts-with-css/css/fontawesome-all.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
