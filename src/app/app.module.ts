@@ -3,18 +3,20 @@ import {NgModule} from '@angular/core';
 
 
 import {AppComponent} from './app.component';
-import {HeaderComponent} from './header/header.component';
-import {DemoComponent} from './demo/demo.component';
+import {HeaderComponent} from './components/header/header.component';
+import {DemoComponent} from './components/demo/demo.component';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {PostService} from './services/post.service';
+import { SelectionComponent } from './components/selection/selection.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    DemoComponent
+    DemoComponent,
+    SelectionComponent
   ],
   imports: [
     BrowserModule,

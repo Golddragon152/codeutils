@@ -10,3 +10,11 @@
 .super-large {
   font-size: 12rem;
 }
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.inline-block {
+  display: inline-block !important;
+}

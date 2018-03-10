@@ -3,7 +3,7 @@ import {Observable} from 'rxjs/Observable';
 import {HttpClient} from '@angular/common/http';
 import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/catch';
-import {Post} from '../class/post';
+import {Post} from '../classes/post';
 
 @Injectable()
 export class PostService {
